@@ -1,6 +1,6 @@
 @use '../variables'
 @use '../mixins'
-    
+
 #main-content
     background-color: variables.$bg-color
     flex: 2 1 0
@@ -10,6 +10,32 @@
     section
         display: flex
         flex-direction: column
+
+    section.projects-container
+        display: flex
+        flex-direction: column
+        gap: 1rem
+
+        h3
+            color: variables.$text-color
+            font-size: 1.2rem
+            @include mixins.center
+            justify-content: start
+            gap: 1rem
+
+            &:after
+                @include mixins.gradient-border
+
+        .btn
+            margin-right: 1rem
+
+        .projects-front
+            display: flex
+            flex-direction: row
+
+        .projects-back
+            display: flex
+            flex-direction: row
 
     h2
         color: variables.$text-color
@@ -21,7 +47,6 @@
 
         &:after
             @include mixins.gradient-border
-            
 
     p
         color: variables.$text-color-secondary
@@ -31,4 +56,3 @@
     .btn
         align-self: start
         @include mixins.btn
-        
