@@ -10,7 +10,7 @@ export default function Sidebar() {
       <p className="title">Desenvolvedor Full-Stack</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="" className="btn">Download Currículo</a>
+      <a href="/CV-RAFAEL.pdf" className="btn" download="CV-RAFAEL.pdf">Download Currículo</a>
     </aside>
 
   )

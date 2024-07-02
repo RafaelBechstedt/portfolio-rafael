@@ -3,11 +3,11 @@ import '../styles/components/maincontent.sass'
 export default function ProjectsContainer() {
   return (
     <>
-      <h2>Projetos</h2>
+      <h2>Projetos Pessoais</h2>
       <section className="projects-container">
         <h3>Front-End</h3>
         <section className="projects-front">
-          <a href="https://rafaelbechstedt.github.io/app-de-receitas-react/" className="btn" target="_blank">
+          <a href="https://rafaelbechstedt.github.io/app-de-receitas-react/" className="btn" target="_blank" title="Breve resumo do Projeto 1">
             App de receitas
           </a>
           <a href="https://rafaelbechstedt.github.io/loja-online-front/" className="btn" target="_blank">

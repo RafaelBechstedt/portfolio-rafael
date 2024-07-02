@@ -4,18 +4,20 @@ import {
     DiMysql,
     DiReact,
     DiJava,
+    DiMongodb,
+    DiBootstrap
 } from "react-icons/di";
 
-import {SiTypescript} from "react-icons/si"
 
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = [
     { id: "react", name: "React", icon: <DiReact /> },
+    { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap /> },
     { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
-    { id: "ts", name: "TypeScript", icon: <SiTypescript /> },
-    { id: "docker", name: "Docker", icon: <DiDocker /> },
     { id: "java", name: "Java", icon: <DiJava /> },
+    { id: "docker", name: "Docker", icon: <DiDocker /> },
+    { id: "mongo", name: "MongoDB", icon: <DiMongodb /> },
     { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   ];
 
